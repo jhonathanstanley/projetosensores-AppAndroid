@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layoutt"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtMsg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="O APP ENVIA AS INFORMAÇÕES DOS SENSORES A CADA 30 SEGUNDOS"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/txtMsg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VISUALIZE AS INFORMAÇÕES NO DASHBOARD WEB"
+        android:textStyle="italic"
+        android:textSize="25dp"/>
+
+
+</LinearLayout>
